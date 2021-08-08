@@ -1,0 +1,13 @@
+use_frameworks!
+
+platform :ios, '9.0'
+
+target 'ZPSugarMMUtils_Example' do
+  pod 'ZPSugarMMUtils', :path => '../'
+
+  target 'ZPSugarMMUtils_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
