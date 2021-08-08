@@ -1,0 +1,6 @@
+framework module ZPSugarMMUtils {
+  umbrella header "ZPSugarMMUtils-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -1,0 +1,770 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		316000A63A5F32301CBB0AE1AC5C0AB2 /* Pods-ZPSugarMMUtils_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 340B96804A22FF971791FB6B6F568284 /* Pods-ZPSugarMMUtils_Tests-dummy.m */; };
+		413E08FB791511338E475097F3D20CC8 /* Pods-ZPSugarMMUtils_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 6A683EB9351D1C190DFC544FA1C8CD7C /* Pods-ZPSugarMMUtils_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		44F9A65B9D4A5DEE4D06EDF9749C604A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		4556CD62237F03FEC685CA109EB1F6B2 /* ZPSugarMMUtils-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 9A35838A907F45FEC742AF8736A860E7 /* ZPSugarMMUtils-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5F018501A28B46BF45DE2F8B49B31774 /* Pods-ZPSugarMMUtils_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B8BB9C3B95198AB3560083488CEB68F /* Pods-ZPSugarMMUtils_Example-dummy.m */; };
+		A56869D05E340912E49D934B51957A01 /* ZPSugarMMUtils-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = BDD594505D77455B254E1F218F9BF484 /* ZPSugarMMUtils-dummy.m */; };
+		B414EEF0A1BE52D28C85AAD1A5471A00 /* Pods-ZPSugarMMUtils_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 0192DD4A0268F54F43C311BA42EA20D3 /* Pods-ZPSugarMMUtils_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B8AE2B1A7BF6FA4972A585CE0234ADF6 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		B94C71B0DABBCCFCD3488DA2A1E46C00 /* ReplaceMe.swift in Sources */ = {isa = PBXBuildFile; fileRef = C38EE300D4631D45CBA20C11FC703B70 /* ReplaceMe.swift */; };
+		BDD189A305950CD47EFFD3193D1ACCEB /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		5C70945DA5A086C8979E2EB8E3F4B7CE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2361D4334E2D0C1ACC9759A442AF81C6;
+			remoteInfo = "Pods-ZPSugarMMUtils_Example";
+		};
+		B5EEBB30F862AE46E2D04B46628E56A3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 27860461C2A0EDB386F038787D8DA58A;
+			remoteInfo = ZPSugarMMUtils;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0192DD4A0268F54F43C311BA42EA20D3 /* Pods-ZPSugarMMUtils_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-ZPSugarMMUtils_Tests-umbrella.h"; sourceTree = "<group>"; };
+		05345B63CD7CF61FFCB047C8C5C8E402 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		11AC6739CE72CC12FAB0B9E15CBAD881 /* Pods-ZPSugarMMUtils_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-ZPSugarMMUtils_Tests.modulemap"; sourceTree = "<group>"; };
+		159711067E32CF16CC889D5FB86AF47A /* ZPSugarMMUtils.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = ZPSugarMMUtils.framework; path = ZPSugarMMUtils.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		23523F7E555B0A70B980491ED7BCDFD6 /* Pods-ZPSugarMMUtils_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ZPSugarMMUtils_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		336E028BF0A54188D1479E435FF06B17 /* Pods-ZPSugarMMUtils_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ZPSugarMMUtils_Example-Info.plist"; sourceTree = "<group>"; };
+		340B96804A22FF971791FB6B6F568284 /* Pods-ZPSugarMMUtils_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-ZPSugarMMUtils_Tests-dummy.m"; sourceTree = "<group>"; };
+		3511C9FC074E3FB10C828222762B9DCF /* ZPSugarMMUtils.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = ZPSugarMMUtils.modulemap; sourceTree = "<group>"; };
+		36371773298A4CCFEB96826CC721D4C8 /* ZPSugarMMUtils-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ZPSugarMMUtils-prefix.pch"; sourceTree = "<group>"; };
+		3780D35183338403F9EDE8011BFD5EF6 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		3B8BB9C3B95198AB3560083488CEB68F /* Pods-ZPSugarMMUtils_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-ZPSugarMMUtils_Example-dummy.m"; sourceTree = "<group>"; };
+		3BF9A5DD15982F6690EC63D31B7B0C78 /* Pods-ZPSugarMMUtils_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ZPSugarMMUtils_Example.release.xcconfig"; sourceTree = "<group>"; };
+		4219EFA7FD4B55354773A4DD843110FA /* Pods-ZPSugarMMUtils_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-ZPSugarMMUtils_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		42F5D825DAE1E76D5AE4926C009A985F /* Pods_ZPSugarMMUtils_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_ZPSugarMMUtils_Example.framework; path = "Pods-ZPSugarMMUtils_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4EE43C762652E00DDCAE1E737576F6FB /* ZPSugarMMUtils.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = ZPSugarMMUtils.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		5949B6E560571209665AA28CE866C6B1 /* Pods-ZPSugarMMUtils_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ZPSugarMMUtils_Tests-Info.plist"; sourceTree = "<group>"; };
+		597E00CEC022F6204F24668120314E14 /* Pods-ZPSugarMMUtils_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-ZPSugarMMUtils_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		6A683EB9351D1C190DFC544FA1C8CD7C /* Pods-ZPSugarMMUtils_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-ZPSugarMMUtils_Example-umbrella.h"; sourceTree = "<group>"; };
+		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		771D9492638DE2E962E8FBD11279E062 /* Pods-ZPSugarMMUtils_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ZPSugarMMUtils_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		9A35838A907F45FEC742AF8736A860E7 /* ZPSugarMMUtils-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ZPSugarMMUtils-umbrella.h"; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A2212A71816C36EF91DC1D86DCF34470 /* Pods-ZPSugarMMUtils_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ZPSugarMMUtils_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		A3224211C51502273D4B27F4EB5E589E /* Pods-ZPSugarMMUtils_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ZPSugarMMUtils_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		B275636F045D6FB3C1FA8F1B64A36A2A /* ZPSugarMMUtils.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ZPSugarMMUtils.debug.xcconfig; sourceTree = "<group>"; };
+		B72DFCB3E3B6AE0AF4417306D78A4524 /* Pods-ZPSugarMMUtils_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ZPSugarMMUtils_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		BDD594505D77455B254E1F218F9BF484 /* ZPSugarMMUtils-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "ZPSugarMMUtils-dummy.m"; sourceTree = "<group>"; };
+		C38EE300D4631D45CBA20C11FC703B70 /* ReplaceMe.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ReplaceMe.swift; path = ZPSugarMMUtils/Classes/ReplaceMe.swift; sourceTree = "<group>"; };
+		C3BD86AFD19DC753AFB3792827B69EA7 /* ZPSugarMMUtils.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ZPSugarMMUtils.release.xcconfig; sourceTree = "<group>"; };
+		D33F4D1E1B87EE58E928C9A2DA6C663A /* Pods_ZPSugarMMUtils_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_ZPSugarMMUtils_Tests.framework; path = "Pods-ZPSugarMMUtils_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EDEE87F45299943C4B44AF29C888EF5C /* ZPSugarMMUtils-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ZPSugarMMUtils-Info.plist"; sourceTree = "<group>"; };
+		FEA5ECDB25895A37631AA819C68EA882 /* Pods-ZPSugarMMUtils_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ZPSugarMMUtils_Example-frameworks.sh"; sourceTree = "<group>"; };
+		FEA9241437E7AE0D3A97A1225F666EF0 /* Pods-ZPSugarMMUtils_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-ZPSugarMMUtils_Example.modulemap"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		246DB99E8C53B388BC510F90138B918B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				44F9A65B9D4A5DEE4D06EDF9749C604A /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BCB5BA1C5F5E87848BF22312203B13C0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BDD189A305950CD47EFFD3193D1ACCEB /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C473AC5B31B6E8A4807E80963E72EE1C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B8AE2B1A7BF6FA4972A585CE0234ADF6 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0B918921E9809BF655DEBE3908AAA606 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				1EDF33FD1B05537DFDF1C7FDDCC3204D /* Pods-ZPSugarMMUtils_Example */,
+				F112F2B5E32F8BADA685A369FB0F7D12 /* Pods-ZPSugarMMUtils_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		1098A72E7F4391199D0277E6E765F89C /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				3511C9FC074E3FB10C828222762B9DCF /* ZPSugarMMUtils.modulemap */,
+				BDD594505D77455B254E1F218F9BF484 /* ZPSugarMMUtils-dummy.m */,
+				EDEE87F45299943C4B44AF29C888EF5C /* ZPSugarMMUtils-Info.plist */,
+				36371773298A4CCFEB96826CC721D4C8 /* ZPSugarMMUtils-prefix.pch */,
+				9A35838A907F45FEC742AF8736A860E7 /* ZPSugarMMUtils-umbrella.h */,
+				B275636F045D6FB3C1FA8F1B64A36A2A /* ZPSugarMMUtils.debug.xcconfig */,
+				C3BD86AFD19DC753AFB3792827B69EA7 /* ZPSugarMMUtils.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/ZPSugarMMUtils";
+			sourceTree = "<group>";
+		};
+		14CD5BFA42631F08D949DFE19F415072 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				05345B63CD7CF61FFCB047C8C5C8E402 /* LICENSE */,
+				3780D35183338403F9EDE8011BFD5EF6 /* README.md */,
+				4EE43C762652E00DDCAE1E737576F6FB /* ZPSugarMMUtils.podspec */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		1EDF33FD1B05537DFDF1C7FDDCC3204D /* Pods-ZPSugarMMUtils_Example */ = {
+			isa = PBXGroup;
+			children = (
+				FEA9241437E7AE0D3A97A1225F666EF0 /* Pods-ZPSugarMMUtils_Example.modulemap */,
+				4219EFA7FD4B55354773A4DD843110FA /* Pods-ZPSugarMMUtils_Example-acknowledgements.markdown */,
+				771D9492638DE2E962E8FBD11279E062 /* Pods-ZPSugarMMUtils_Example-acknowledgements.plist */,
+				3B8BB9C3B95198AB3560083488CEB68F /* Pods-ZPSugarMMUtils_Example-dummy.m */,
+				FEA5ECDB25895A37631AA819C68EA882 /* Pods-ZPSugarMMUtils_Example-frameworks.sh */,
+				336E028BF0A54188D1479E435FF06B17 /* Pods-ZPSugarMMUtils_Example-Info.plist */,
+				6A683EB9351D1C190DFC544FA1C8CD7C /* Pods-ZPSugarMMUtils_Example-umbrella.h */,
+				A2212A71816C36EF91DC1D86DCF34470 /* Pods-ZPSugarMMUtils_Example.debug.xcconfig */,
+				3BF9A5DD15982F6690EC63D31B7B0C78 /* Pods-ZPSugarMMUtils_Example.release.xcconfig */,
+			);
+			name = "Pods-ZPSugarMMUtils_Example";
+			path = "Target Support Files/Pods-ZPSugarMMUtils_Example";
+			sourceTree = "<group>";
+		};
+		578452D2E740E91742655AC8F1636D1F /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		849842218CB73DCFC10268A750E34514 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				9D7404A618C61B0B0FC2B3B405C52378 /* ZPSugarMMUtils */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		9D7404A618C61B0B0FC2B3B405C52378 /* ZPSugarMMUtils */ = {
+			isa = PBXGroup;
+			children = (
+				C38EE300D4631D45CBA20C11FC703B70 /* ReplaceMe.swift */,
+				14CD5BFA42631F08D949DFE19F415072 /* Pod */,
+				1098A72E7F4391199D0277E6E765F89C /* Support Files */,
+			);
+			name = ZPSugarMMUtils;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				849842218CB73DCFC10268A750E34514 /* Development Pods */,
+				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				E62F45853BD0A49E0825254FE0E1D4A1 /* Products */,
+				0B918921E9809BF655DEBE3908AAA606 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				578452D2E740E91742655AC8F1636D1F /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E62F45853BD0A49E0825254FE0E1D4A1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				42F5D825DAE1E76D5AE4926C009A985F /* Pods_ZPSugarMMUtils_Example.framework */,
+				D33F4D1E1B87EE58E928C9A2DA6C663A /* Pods_ZPSugarMMUtils_Tests.framework */,
+				159711067E32CF16CC889D5FB86AF47A /* ZPSugarMMUtils.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F112F2B5E32F8BADA685A369FB0F7D12 /* Pods-ZPSugarMMUtils_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				11AC6739CE72CC12FAB0B9E15CBAD881 /* Pods-ZPSugarMMUtils_Tests.modulemap */,
+				597E00CEC022F6204F24668120314E14 /* Pods-ZPSugarMMUtils_Tests-acknowledgements.markdown */,
+				23523F7E555B0A70B980491ED7BCDFD6 /* Pods-ZPSugarMMUtils_Tests-acknowledgements.plist */,
+				340B96804A22FF971791FB6B6F568284 /* Pods-ZPSugarMMUtils_Tests-dummy.m */,
+				5949B6E560571209665AA28CE866C6B1 /* Pods-ZPSugarMMUtils_Tests-Info.plist */,
+				0192DD4A0268F54F43C311BA42EA20D3 /* Pods-ZPSugarMMUtils_Tests-umbrella.h */,
+				A3224211C51502273D4B27F4EB5E589E /* Pods-ZPSugarMMUtils_Tests.debug.xcconfig */,
+				B72DFCB3E3B6AE0AF4417306D78A4524 /* Pods-ZPSugarMMUtils_Tests.release.xcconfig */,
+			);
+			name = "Pods-ZPSugarMMUtils_Tests";
+			path = "Target Support Files/Pods-ZPSugarMMUtils_Tests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		018EF49D4A3BA14563950D064EF25119 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B414EEF0A1BE52D28C85AAD1A5471A00 /* Pods-ZPSugarMMUtils_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1538F70FDB5AC39DB48E6014ADB4E716 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4556CD62237F03FEC685CA109EB1F6B2 /* ZPSugarMMUtils-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DE5DBFDE91218CC5D0C4A0765731C9C6 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				413E08FB791511338E475097F3D20CC8 /* Pods-ZPSugarMMUtils_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		2361D4334E2D0C1ACC9759A442AF81C6 /* Pods-ZPSugarMMUtils_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 09DC8B0B80C9BC6E691FC8F17D71CC12 /* Build configuration list for PBXNativeTarget "Pods-ZPSugarMMUtils_Example" */;
+			buildPhases = (
+				DE5DBFDE91218CC5D0C4A0765731C9C6 /* Headers */,
+				82409633102176C5FBBB99A7817330CA /* Sources */,
+				BCB5BA1C5F5E87848BF22312203B13C0 /* Frameworks */,
+				49C65FB3F2D5A211EE4BCA2528669573 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				31AA30418F86D1D8732DE730D0697742 /* PBXTargetDependency */,
+			);
+			name = "Pods-ZPSugarMMUtils_Example";
+			productName = "Pods-ZPSugarMMUtils_Example";
+			productReference = 42F5D825DAE1E76D5AE4926C009A985F /* Pods_ZPSugarMMUtils_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		27860461C2A0EDB386F038787D8DA58A /* ZPSugarMMUtils */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3CD687CC1F1B2C155C74D88FF6B2168F /* Build configuration list for PBXNativeTarget "ZPSugarMMUtils" */;
+			buildPhases = (
+				1538F70FDB5AC39DB48E6014ADB4E716 /* Headers */,
+				29A32D77B81A4841DCE928FA0249A8FF /* Sources */,
+				246DB99E8C53B388BC510F90138B918B /* Frameworks */,
+				0F1DDE2FECF414524AEB60DDC462BBA6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ZPSugarMMUtils;
+			productName = ZPSugarMMUtils;
+			productReference = 159711067E32CF16CC889D5FB86AF47A /* ZPSugarMMUtils.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		B5F965597EAF0C68A1CCB861DF95EEAC /* Pods-ZPSugarMMUtils_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B1D96CC9AD7F97891691D059ACA4DE88 /* Build configuration list for PBXNativeTarget "Pods-ZPSugarMMUtils_Tests" */;
+			buildPhases = (
+				018EF49D4A3BA14563950D064EF25119 /* Headers */,
+				E23B4F6B91445D65C11B44C470B57C96 /* Sources */,
+				C473AC5B31B6E8A4807E80963E72EE1C /* Frameworks */,
+				67C08439D17163A03DDFC06EADEF5566 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				519175740946CED338FDE34EFD0AEF38 /* PBXTargetDependency */,
+			);
+			name = "Pods-ZPSugarMMUtils_Tests";
+			productName = "Pods-ZPSugarMMUtils_Tests";
+			productReference = D33F4D1E1B87EE58E928C9A2DA6C663A /* Pods_ZPSugarMMUtils_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1240;
+				LastUpgradeCheck = 1240;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = E62F45853BD0A49E0825254FE0E1D4A1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2361D4334E2D0C1ACC9759A442AF81C6 /* Pods-ZPSugarMMUtils_Example */,
+				B5F965597EAF0C68A1CCB861DF95EEAC /* Pods-ZPSugarMMUtils_Tests */,
+				27860461C2A0EDB386F038787D8DA58A /* ZPSugarMMUtils */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0F1DDE2FECF414524AEB60DDC462BBA6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		49C65FB3F2D5A211EE4BCA2528669573 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		67C08439D17163A03DDFC06EADEF5566 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		29A32D77B81A4841DCE928FA0249A8FF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B94C71B0DABBCCFCD3488DA2A1E46C00 /* ReplaceMe.swift in Sources */,
+				A56869D05E340912E49D934B51957A01 /* ZPSugarMMUtils-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		82409633102176C5FBBB99A7817330CA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5F018501A28B46BF45DE2F8B49B31774 /* Pods-ZPSugarMMUtils_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E23B4F6B91445D65C11B44C470B57C96 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				316000A63A5F32301CBB0AE1AC5C0AB2 /* Pods-ZPSugarMMUtils_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		31AA30418F86D1D8732DE730D0697742 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = ZPSugarMMUtils;
+			target = 27860461C2A0EDB386F038787D8DA58A /* ZPSugarMMUtils */;
+			targetProxy = B5EEBB30F862AE46E2D04B46628E56A3 /* PBXContainerItemProxy */;
+		};
+		519175740946CED338FDE34EFD0AEF38 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-ZPSugarMMUtils_Example";
+			target = 2361D4334E2D0C1ACC9759A442AF81C6 /* Pods-ZPSugarMMUtils_Example */;
+			targetProxy = 5C70945DA5A086C8979E2EB8E3F4B7CE /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		25AD9454612BF454A1E3DC4CD4FA8C6D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		5C3127754467E819F746582E2F4E3AB5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3BF9A5DD15982F6690EC63D31B7B0C78 /* Pods-ZPSugarMMUtils_Example.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-ZPSugarMMUtils_Example/Pods-ZPSugarMMUtils_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-ZPSugarMMUtils_Example/Pods-ZPSugarMMUtils_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		928ABD2E7AC894A6267C886E2ABC21C5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B275636F045D6FB3C1FA8F1B64A36A2A /* ZPSugarMMUtils.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/ZPSugarMMUtils/ZPSugarMMUtils-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/ZPSugarMMUtils/ZPSugarMMUtils-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/ZPSugarMMUtils/ZPSugarMMUtils.modulemap";
+				PRODUCT_MODULE_NAME = ZPSugarMMUtils;
+				PRODUCT_NAME = ZPSugarMMUtils;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		97CEB75AA9460F12951CD36EDB84131C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A3224211C51502273D4B27F4EB5E589E /* Pods-ZPSugarMMUtils_Tests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-ZPSugarMMUtils_Tests/Pods-ZPSugarMMUtils_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-ZPSugarMMUtils_Tests/Pods-ZPSugarMMUtils_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		A3895620489E920B1BF2CD3A1F6A7E83 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A2212A71816C36EF91DC1D86DCF34470 /* Pods-ZPSugarMMUtils_Example.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-ZPSugarMMUtils_Example/Pods-ZPSugarMMUtils_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-ZPSugarMMUtils_Example/Pods-ZPSugarMMUtils_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		CA547D2C7E9A8A153DC2B27FBE00B112 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		E95D81D07BEC7AEF438B5C84DD5C6F96 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B72DFCB3E3B6AE0AF4417306D78A4524 /* Pods-ZPSugarMMUtils_Tests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-ZPSugarMMUtils_Tests/Pods-ZPSugarMMUtils_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-ZPSugarMMUtils_Tests/Pods-ZPSugarMMUtils_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		EB6AAE7A99A574F07DA9B06DC9974FF5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C3BD86AFD19DC753AFB3792827B69EA7 /* ZPSugarMMUtils.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/ZPSugarMMUtils/ZPSugarMMUtils-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/ZPSugarMMUtils/ZPSugarMMUtils-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/ZPSugarMMUtils/ZPSugarMMUtils.modulemap";
+				PRODUCT_MODULE_NAME = ZPSugarMMUtils;
+				PRODUCT_NAME = ZPSugarMMUtils;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		09DC8B0B80C9BC6E691FC8F17D71CC12 /* Build configuration list for PBXNativeTarget "Pods-ZPSugarMMUtils_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A3895620489E920B1BF2CD3A1F6A7E83 /* Debug */,
+				5C3127754467E819F746582E2F4E3AB5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3CD687CC1F1B2C155C74D88FF6B2168F /* Build configuration list for PBXNativeTarget "ZPSugarMMUtils" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				928ABD2E7AC894A6267C886E2ABC21C5 /* Debug */,
+				EB6AAE7A99A574F07DA9B06DC9974FF5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				25AD9454612BF454A1E3DC4CD4FA8C6D /* Debug */,
+				CA547D2C7E9A8A153DC2B27FBE00B112 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B1D96CC9AD7F97891691D059ACA4DE88 /* Build configuration list for PBXNativeTarget "Pods-ZPSugarMMUtils_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				97CEB75AA9460F12951CD36EDB84131C /* Debug */,
+				E95D81D07BEC7AEF438B5C84DD5C6F96 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}

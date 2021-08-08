@@ -1,0 +1,25 @@
+{
+  "name": "ZPSugarMMUtils",
+  "version": "0.1.0",
+  "summary": "ZPSugarMMUtils short description of ZPSugarMMUtils.",
+  "description": "hhhjjjjj",
+  "homepage": "https://github.com/zhangxueqiang/SugarGitHubModule",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "zhangxueqiang": "765950216@qq.com"
+  },
+  "source": {
+    "git": "https://github.com/zhangxueqiang/SugarGitHubModule.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "9.0"
+  },
+  "source_files": [
+    "ZPSugarMMUtils/Classes/**/*",
+    "ZPSugarMMUtils/Classes/**/*{.swift}"
+  ]
+}

@@ -1,0 +1,16 @@
+PODS:
+  - ZPSugarMMUtils (0.1.0)
+
+DEPENDENCIES:
+  - ZPSugarMMUtils (from `../`)
+
+EXTERNAL SOURCES:
+  ZPSugarMMUtils:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  ZPSugarMMUtils: 75beab9dc4889d6b3aebc8ade72630897fb9101d
+
+PODFILE CHECKSUM: c2e324696f2e35a3b249ded1c945b0cb38af5bc0
+
+COCOAPODS: 1.10.2
